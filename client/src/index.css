@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Ubuntu&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    font-family: 'Roboto', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar{
+    width: 5px;
+}
+::-webkit-scrollbar-thumb{
+
+    border-radius: 30px;
+    background-color: rgb(229, 163, 163);
+    
+    transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
